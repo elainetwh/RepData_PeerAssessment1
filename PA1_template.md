@@ -40,7 +40,7 @@ hist(dt_by_day$Total,right=FALSE,col="orange", col.main="blue",
      main="Total Number of Steps Taken Each Day",ylim= c(0,20))
 ```
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png) 
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png) 
 
 #### 3. Calculate and report the mean and median of the total number of steps taken per day
 
@@ -63,7 +63,7 @@ plot(steps_by_interval$interval, steps_by_interval$steps,
      main="Average Number of Steps per Day by Interval")
 ```
 
-![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-1.png) 
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
 
 
 #### 2. Which 5minute interval, on average across all the days in the dataset, contains the maximum number of steps?
@@ -109,7 +109,7 @@ hist(x=daily_activity,
      main="Daily total of Steps Taken per Day including Missing Values")
 ```
 
-![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12-1.png) 
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png) 
 
 ```r
 new_mean <- mean(daily_activity)
@@ -140,6 +140,6 @@ ggplot(new_average_activity, aes(interval, steps),color="red") +
           axis.title.y = element_text(colour = "blue"))
 ```
 
-![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14-1.png) 
+![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png) 
 
 
